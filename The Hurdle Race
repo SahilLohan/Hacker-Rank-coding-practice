@@ -1,0 +1,12 @@
+// Link for problem :- https://www.hackerrank.com/challenges/the-hurdle-race/problem
+
+// code --->
+
+
+///////////   only this function was in-complete   ///////////////
+
+
+int hurdleRace(int k, vector<int> a) {
+    int max=*max_element(a.begin(), a.end());
+    return max>k?max-k:0;
+}
